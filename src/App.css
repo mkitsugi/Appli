@@ -1,0 +1,43 @@
+
+.nft-mint {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #FFC200, #FF6B3C);
+  /* height: 50vh; */
+}
+
+.title {
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.wallet-connect, .nft-mint {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.wallet-connect:hover, .nft-mint:hover {
+  background-color: white;
+  color: #FF6B3C;
+}
